@@ -1,0 +1,97 @@
+/* Shared Styles*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    background-color: #e65371;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #aa1e3a;
+    cursor: pointer;
+}
+
+/* Nav Related Styles*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 130px;
+}
+
+nav .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    margin: 10px 0;
+    
+}
+nav ul{
+    display: flex;
+    padding-right: 45px; 
+   
+}
+
+nav ul li{
+    padding-right: 45px;
+    list-style: none;
+}
+nav ul:last-child{
+    padding-right: 0;
+}
+nav ul li a{
+    text-decoration: none;
+}
+header {
+    background-color: #f4e9eb;  
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.banner-content p{
+    color: rgb(122, 112, 112);
+    font-size: 12px;
+}
+.banner-content{
+    max-width: 500px;
+    
+}
+.banner-image{
+    width: 300px;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featured-flowers{
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-1{
+    width: 33%;
+}
+
+.flower img{
+    width: 30%;
+}
